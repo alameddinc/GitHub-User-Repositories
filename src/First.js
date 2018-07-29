@@ -63,7 +63,7 @@ class First extends Component{
                             {this.state.isLoad && this.state.dataUser['name'] ?<img style={{width:100}} src={this.state.dataUser['avatar_url']} alt=""/>:null}
                             <table >
                                 <tr><td>{this.state.isLoad && this.state.dataUser['name'] && this.state.dataUser ?"Name: "+this.state.dataUser['name']:null}</td></tr>
-                                <tr><td>{this.state.isLoad && this.state.dataUser['name'] ?"Comliany: "+this.state.dataUser['company']:null}</td></tr>
+                                <tr><td>{this.state.isLoad && this.state.dataUser['name'] ?"Company: "+this.state.dataUser['company']:null}</td></tr>
                                 <tr><td>{this.state.isLoad && this.state.dataUser['name'] ?"Location: "+this.state.dataUser['location']:null}</td></tr>
                                 <tr><td>{this.state.isLoad && this.state.dataUser['name'] ?"Followers: "+this.state.dataUser['followers']:null}</td></tr>
                                 <tr><td>{this.state.isLoad && this.state.dataUser['name'] ?"Following: "+this.state.dataUser['following']:null}</td></tr>
